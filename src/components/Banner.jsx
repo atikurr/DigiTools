@@ -10,9 +10,9 @@ const Banner = () => {
         <div className="space-y-6">
           {/* Tag */}
           <div className="flex items-center gap-2 bg-[#E1E7FF] px-4 py-1.5 rounded-full w-fit">
-            <BiBullseye className="text-[var(--primary-color)]" size={16} />
+            <BiBullseye className="text-(--primary-color)" size={16} />
 
-            <span className="text-sm font-medium text-[var(--primary-color)]">
+            <span className="text-sm font-medium text-(--primary-color)">
               New: AI-Powered Tools Available
             </span>
           </div>
@@ -20,7 +20,7 @@ const Banner = () => {
           {/* Heading */}
           <h1 className="text-4xl lg:text-5xl font-bold text-[#101727] leading-tight">
             Supercharge Your <br />
-            <span className="text-[var(--primary-color)]">
+            <span className="text-(--primary-color)">
               Digital Workflow
             </span>
           </h1>
@@ -34,12 +34,12 @@ const Banner = () => {
           {/* Buttons */}
           <div className="flex flex-wrap items-center gap-4 pt-2">
             {/* Primary Button */}
-            <button className="bg-[var(--primary-color)] text-white px-6 py-3 rounded-full text-sm font-bold hover:opacity-90 transition">
+            <button className="bg-(--primary-color) text-white px-6 py-3 rounded-full text-sm font-bold hover:opacity-90 transition">
               Explore Products
             </button>
 
             {/* Watch Demo */}
-            <button className="border border-[var(--primary-color)] text-[var(--primary-color)] px-6 py-3 rounded-full text-sm font-bold flex items-center gap-1 hover:bg-purple-50 transition">
+            <button className="border border-(--primary-color) text-(--primary-color) px-6 py-3 rounded-full text-sm font-bold flex items-center gap-1 hover:bg-purple-50 transition">
               <TiMediaPlayOutline size={30} />
               Watch Demo
             </button>

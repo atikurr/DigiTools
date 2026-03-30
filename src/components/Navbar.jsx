@@ -20,7 +20,7 @@ const Navbar = ({ cart = [] }) => {
             <li key={item}>
               <a
                 href={`#${item}`}
-                className="hover:text-[var(--primary-color)] transition capitalize"
+                className="hover:text-(--primary-color) transition capitalize"
               >
                 {item}
               </a>
@@ -33,18 +33,18 @@ const Navbar = ({ cart = [] }) => {
           {/* Cart */}
           <div className="relative cursor-pointer">
             <ShoppingCart size={20} />
-            <span className="absolute -top-2 -right-2 bg-[var(--primary-color)] text-white text-[10px] px-1.5 rounded-full">
+            <span className="absolute -top-2 -right-2 bg-(--primary-color) text-white text-[10px] px-1.5 rounded-full">
               {cart.length}
             </span>
           </div>
 
           {/* Desktop Buttons */}
           <div className="hidden md:flex items-center gap-4">
-            <button className="text-sm font-semibold text-[#101727] hover:text-[var(--primary-color)]">
+            <button className="text-sm font-semibold text-[#101727] hover:text-(--primary-color)">
               Login
             </button>
 
-            <button className="bg-[var(--primary-color)] text-white px-4 py-2 rounded-full text-sm hover:opacity-90 transition">
+            <button className="bg-(--primary-color) text-white px-4 py-2 rounded-full text-sm hover:opacity-90 transition">
               Get Started
             </button>
           </div>
@@ -63,7 +63,7 @@ const Navbar = ({ cart = [] }) => {
             <a
               key={item}
               href={`#${item}`}
-              className="text-sm font-medium text-[#101727] hover:text-[var(--primary-color)] capitalize"
+              className="text-sm font-medium text-[#101727] hover:text-(--primary-color) capitalize"
               onClick={() => setIsOpen(false)}
             >
               {item}
@@ -71,7 +71,7 @@ const Navbar = ({ cart = [] }) => {
           ))}         
 
           <button className="text-sm">Login</button>
-          <button className="w-full bg-[var(--primary-color)] text-white py-2 rounded-full text-sm">
+          <button className="w-full bg-(--primary-color) text-white py-2 rounded-full text-sm">
             Get Started
           </button>
         </div>

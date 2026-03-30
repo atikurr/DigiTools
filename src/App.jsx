@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Stats from "./components/Stats";
 import CallAction from "./components/CallAction";
 import Footer from "./components/Footer";
+import Pricing from "./components/Pricing";
 
 function App() {
   const cart = [];
@@ -19,11 +20,15 @@ function App() {
       {/* Stats */}
       <Stats />
 
+      {/* {Pricing} */}
+
+      <Pricing />
+
       {/* CTA */}
       <CallAction />
 
-      {/* CTA */}
-      <Footer></Footer>
+      {/* Footer */}
+      <Footer />
 
     </div>
   );
