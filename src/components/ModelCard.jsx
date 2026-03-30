@@ -27,8 +27,8 @@ const ModelCard = ({ model, carts, setCarts }) => {
         </span>
       )}
 
-      <div className="w-14 h-14 bg-gray-50 rounded-2xl flex items-center justify-center mb-6 border border-gray-100 shadow-inner">
-        <img src={model.image} alt={model.name} className="w-8 h-8 object-contain" />
+      <div className="w-14 h-14 bg-gray-50 rounded-[50%] flex items-center justify-center mb-6 border border-gray-100">
+        <img src={model.image} alt={model.name} className="w-8 h-8" />
       </div>
 
       <h3 className="text-xl font-bold text-gray-900 mb-2">{model.name}</h3>
