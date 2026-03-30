@@ -47,8 +47,7 @@ const Steps = () => {
             <div
               key={step.id}
               className="relative bg-white p-8 rounded-2xl border border-gray-200 shadow-sm text-center h-95 flex flex-col justify-center"
-            >
-              
+            >              
               {/* Number Badge */}
               <div className="absolute top-4 right-4 w-8 h-8 bg-(--primary-color) text-white rounded-full text-xs flex items-center justify-center">
                 {step.id}

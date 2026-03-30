@@ -40,7 +40,7 @@ const Banner = () => {
 
             {/* Watch Demo */}
             <button className="border border-(--primary-color) text-(--primary-color) px-6 py-3 rounded-full text-sm font-bold flex items-center gap-1 hover:bg-purple-50 transition">
-              <TiMediaPlayOutline size={30} />
+              <TiMediaPlayOutline size={20} />
               Watch Demo
             </button>
           </div>

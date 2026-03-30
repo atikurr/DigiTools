@@ -54,7 +54,7 @@ const Pricing = () => {
           {/* Pro Plan (Active/Most Popular) */}
           <div className="relative bg-[linear-gradient(to_right,var(--primary-color),#A855F7)] p-8 rounded-3xl shadow-2xl flex flex-col h-full transform scale-105 z-10 border-none">
             {/* Badge */}
-            <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#FFEDD5] text-[#9A3412] text-[12px] px-4 py-1 rounded-full font-bold shadow-sm">
+            <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#FEF3C6] text-[#BB4D00] text-[12px] px-4 py-1 rounded-full font-bold shadow-sm">
               Most Popular
             </span>
 

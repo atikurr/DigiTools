@@ -19,12 +19,12 @@ const CallAction = () => {
         <div className="flex justify-center gap-4 flex-wrap pt-3">
           
           {/* Primary */}
-          <button className="bg-white text-[var(--primary-color)] px-6 py-2.5 rounded-full text-sm font-semibold shadow-md hover:scale-105 transition">
+          <button className="bg-white text-(--primary-color) px-6 py-2.5 rounded-full text-sm font-semibold shadow-md hover:scale-105 transition">
             Explore Products
           </button>
 
           {/* Outline */}
-          <button className="border border-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-white hover:text-[var(--primary-color)] transition">
+          <button className="border border-white px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-white hover:text-(--primary-color) transition">
             View Pricing
           </button>
 

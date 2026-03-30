@@ -3,10 +3,10 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0B1220] text-white pt-16 pb-8">
+    <footer className="bg-[#0B1220] text-white  pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6">
         {/* Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-6 gap-10">
+        <div className="grid md:grid-cols-6 gap-10">
           {/* Logo + Description (2 Columns) */}
           <div className="md:col-span-2 space-y-4">
             <h2 className="text-xl font-bold">DigiTools</h2>
