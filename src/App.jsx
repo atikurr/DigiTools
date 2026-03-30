@@ -1,12 +1,31 @@
 import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import Stats from "./components/Stats";
+import CallAction from "./components/CallAction";
+import Footer from "./components/Footer";
 
 function App() {
   const cart = [];
+
   return (
-    <>
+    <div className="font-manrope">
+      
+      {/* Navbar */}
       <Navbar cart={cart} />
-      <h1 className="text-center mt-10 text-xl">App Working 🚀</h1>
-    </>
+
+      {/* Banner */}
+      <Banner />
+
+      {/* Stats */}
+      <Stats />
+
+      {/* CTA */}
+      <CallAction />
+
+      {/* CTA */}
+      <Footer></Footer>
+
+    </div>
   );
 }
 
