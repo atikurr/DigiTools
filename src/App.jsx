@@ -4,6 +4,7 @@ import Stats from "./components/Stats";
 import CallAction from "./components/CallAction";
 import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
+import Steps from "./components/Steps";
 
 function App() {
   const cart = [];
@@ -19,6 +20,10 @@ function App() {
 
       {/* Stats */}
       <Stats />
+
+      {/* {Steps Crd} */}
+
+      <Steps/>
 
       {/* {Pricing} */}
 
