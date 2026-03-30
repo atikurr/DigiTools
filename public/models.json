@@ -13,7 +13,7 @@
       "Export to PDF"
     ],
     "icon": "FiFileText",
-    "image": "src/assets/products/design-tool.png"
+    "image": "/images/design-tool.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Responsive design"
     ],
     "icon": "FiLayout",
-    "image": "src/assets/products/portfolio.png"
+    "image": "/images/portfolio.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "One-click export"
     ],
     "icon": "FiImage",
-    "image": "src/assets/products/operation.png"
+    "image": "/images/operation.png"
     
   },
   {
@@ -62,7 +62,7 @@
       "SEO optimization"
     ],
     "icon": "FiEdit",
-    "image": "src/assets/products/shopping-cart.png"
+    "image": "/images/shopping-cart.png"
   },
   {
     "id": 5,
@@ -78,7 +78,7 @@
       "Custom domain"
     ],
     "icon": "FiGlobe",
-    "image": "src/assets/products/social-media.png"
+    "image": "/images/social-media.png"
   },
   {
     "id": 6,
@@ -94,6 +94,6 @@
       "Lifetime updates"
     ],
     "icon": "FiGrid",
-    "image": "src/assets/products/writing_2327400 1.png"
+    "image": "/images/writing_2327400 1.png"
   }
 ]
