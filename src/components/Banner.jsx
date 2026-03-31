@@ -5,7 +5,7 @@ import { TiMediaPlayOutline } from "react-icons/ti";
 const Banner = () => {
   return (
     <div className="w-full bg-white py-16">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center px-6">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
         {/* Left Content */}
         <div className="space-y-6">
           {/* Tag */}
