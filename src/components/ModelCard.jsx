@@ -6,9 +6,7 @@ const ModelCard = ({ model, carts, setCarts }) => {
   const handleBuy = () => {
     if (!isBuy) {
       setCarts([...carts, model]);
-      toast.success(`${model.name} added to cart!`, {
-        icon: "🛒",
-      });
+      toast.success(`${model.name} added to cart!`,);
     }
   };
 
