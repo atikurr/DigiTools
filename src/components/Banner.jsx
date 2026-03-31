@@ -18,7 +18,7 @@ const Banner = () => {
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl lg:text-7xl font-extrabold text-[#101727] leading-tight">
+          <h1 className="text-4xl lg:text-6xl font-extrabold text-[#101727] leading-tight">
             Supercharge Your <br />
             <span className="text-(--primary-color)">
               Digital Workflow
