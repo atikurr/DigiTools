@@ -77,7 +77,7 @@ const Cart = ({ carts, setCarts }) => {
             ))}
 
             <div className="flex justify-between items-center px-2 py-8 mt-4 border-t border-gray-50">
-              <span className="text-gray-400 font-semibold uppercase tracking-widest text-[10px]">
+              <span className="text-gray-400 font-normal uppercase tracking-widest text-[16px">
                 Total:
               </span>
               <span className="text-3xl font-black text-gray-900 tracking-tight">
