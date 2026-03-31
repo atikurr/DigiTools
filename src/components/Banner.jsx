@@ -18,7 +18,7 @@ const Banner = () => {
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl lg:text-5xl font-bold text-[#101727] leading-tight">
+          <h1 className="text-4xl lg:text-7xl font-extrabold text-[#101727] leading-tight">
             Supercharge Your <br />
             <span className="text-(--primary-color)">
               Digital Workflow
@@ -26,7 +26,7 @@ const Banner = () => {
           </h1>
 
           {/* Description */}
-          <p className="text-gray-500 max-w-lg text-sm lg:text-base">
+          <p className="text-[#627382] max-w-lg text-sm lg:text-base">
             Access premium AI tools, design assets, templates, and productivity
             software—all in one place. Start creating faster today.
           </p>

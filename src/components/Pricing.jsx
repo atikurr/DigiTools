@@ -15,7 +15,7 @@ const Pricing = () => {
 
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mt-16 items-center">
-          {/* Starter Plan (Inactive Look) */}
+          {/* Starter Plan */}
           <div className="bg-[#F9FAFB] h-full p-8 rounded-3xl border border-gray-100 shadow-sm flex flex-col">
             <h3 className="text-xl font-bold text-left text-[#111827]">
               Starter
@@ -51,7 +51,7 @@ const Pricing = () => {
             </button>
           </div>
 
-          {/* Pro Plan (Active/Most Popular) */}
+          {/* Pro Plan  */}
           <div className="relative bg-[linear-gradient(to_right,var(--primary-color),#A855F7)] p-8 rounded-3xl shadow-2xl flex flex-col h-full transform scale-105 z-10 border-none">
             {/* Badge */}
             <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#FEF3C6] text-[#BB4D00] text-[12px] px-4 py-1 rounded-full font-bold shadow-sm">
@@ -88,7 +88,7 @@ const Pricing = () => {
             </button>
           </div>
 
-          {/* Enterprise Plan (Inactive Look) */}
+          {/* Enterprise Plan */}
           <div className="bg-[#F9FAFB] p-8 rounded-3xl border border-gray-100 shadow-sm flex flex-col h-fit">
             <h3 className="text-xl font-bold text-left text-[#111827]">
               Enterprise
